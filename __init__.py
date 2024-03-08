@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request, redirect, url_for, flash
-from flask_mysqldb import MySQL
+from Flask_MySQLdb import MySQL
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired, Email, EqualTo
